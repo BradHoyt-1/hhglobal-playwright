@@ -1,0 +1,12 @@
+# Dependency directory
+node_modules/
+
+# Playwright HTML reports
+playwright-report/
+
+# Playwright test results (videos, traces)
+test-results/
+
+# Optional: OS-specific files
+.DS_Store
+Thumbs.db
