@@ -63,7 +63,7 @@ test.describe('Navigation menu - Mobile', () => {
       await expect(parentLink).toBeVisible();
 
       if (item.hasSubmenu) {
-        // Tap parent to expand submenu
+        // Select parent to expand submenu
         await parentLink.click();
 
         const submenuLink = page.locator(`${item.parentId} ul.sub-menu a`, {
@@ -75,7 +75,7 @@ test.describe('Navigation menu - Mobile', () => {
         await submenuLink.click();
         await expect(page).toHaveURL(new RegExp(item.hrefContains));
       } else {
-        // Tap parent link directly
+        // Select parent link directly
         await parentLink.click();
         await expect(page).toHaveURL(new RegExp(item.hrefContains));
       }
