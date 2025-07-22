@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 import { acceptCookies } from '../../helpers';
 
-test.describe('Navigation menu - Mobile', () => {
+test.describe('Navigation menu - Desktop', () => {
   const baseURL = 'https://www.hhglobal.com/';
 
   const menuItems = [
