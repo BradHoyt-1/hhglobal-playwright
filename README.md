@@ -215,4 +215,19 @@ LinkedIn: https://www.linkedin.com/in/bradjhoyt/
 
 Please refer to the “HH Global Home Task – Brad Hoyt” PDF document which is included in the hhglobal-playwright folder for additional details with screenshots along with what's covered in the README file.
 
+Also for reference:
+##Text of the actual assignment:
 
+**Objective**
+- Demonstrate your ability to set up a basic QA automation framework using Playwright for desktop/mobile web testing. Your task is to test the
+https://www.hhglobal.com homepage across multiple devices (viewports) and outline a scalable test strategy that could be expanded into a larger suite. 
+
+**Test Scope** 
+- Write a minimum of 3 automated tests that: 
+- Verify key UI elements are visible and rendered properly (e.g., navigation bar, hero banner, footer). 
+- Ensure cross-device support with Playwright, by checking for example, that the hamburger menu works correctly on mobile view (or describe how you would use 3rd party software to help with this). 
+- You may use any tools, including AI, to complete the task, but you must take ownership of the solution. 
+
+**Deliverables**  
+- The process of how you handle the task is 100% up to you.  Please make sure only, that you will estimate the task and provide us with information at the beginning of the process. When done, please share with us the repository with the solution. 
+- We are open to the use of AI as a supporting tool throughout this task. However, we ask that you clearly explain how AI was used during the process. We value ownership and expect you to take full responsibility for the final solution. 
